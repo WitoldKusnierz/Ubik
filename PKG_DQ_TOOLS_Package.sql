@@ -15,6 +15,7 @@ CREATE OR REPLACE PACKAGE STAGE.PKG_DQ_TOOLS AS
 *  Revision History
 *  Author      Date      Version   Description
 *  --------     ------    ---------  -------------
+* Witold Kusnierz	11/03/2013 Some changes
 *****************************************************************************************/
  
   PROCEDURE DQ_BETS(P_QUEUE_TYPE IN VARCHAR2 DEFAULT 'Capture', P_DQ_BATCH_SIZE IN NUMBER DEFAULT 100, P_RUN_LOG_TYPE IN VARCHAR2 DEFAULT 'ERROR');
